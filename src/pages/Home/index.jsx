@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import {getPratos} from '../../api/restaurante'
 import {Box, Typography, CircularProgress, Button  } from '@mui/material'
-import Index from '../../componentes/CardPrato/index.jsx/index.jsx'
+import Index from '../../componentes/CardPrato/index.jsx'
 
 export default function Home() {
   const [pratos, setPratos] = useState()

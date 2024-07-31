@@ -15,7 +15,7 @@ export default function Index(props) {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {props.prato.nome
+          {props.prato.nome}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {props.prato.ingredientes}
